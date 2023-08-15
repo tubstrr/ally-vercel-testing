@@ -1,8 +1,9 @@
 package handler
- 
+
 import (
-  "net/http"
-  "github.com/tubstrr/ally"
+	"net/http"
+
+	ally "github.com/tubstrr/ally"
 )
 
 func AllyAdmin(w http.ResponseWriter, r *http.Request) {

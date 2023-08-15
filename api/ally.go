@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	ally_theme "github.com/tubstrr/ally-theme-test"
+	ally_theme "github.com/tubstrr/ally-vercel-testing"
 )
 
 
@@ -18,8 +18,6 @@ func Ally(w http.ResponseWriter, r *http.Request) {
 		// network.FourOhFour(w, r)
 		return
 	}
-
-	fmt.Println(string(file))
 
   w.WriteHeader(http.StatusOK)
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
