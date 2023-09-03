@@ -24,16 +24,5 @@
       "source": "/(.*)",
       "destination": "api/ally"
     }
-  ],
-  "headers": [
-    {
-      "source": "/ally-admin/:path*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-cache, must-revalidate, private"
-        }
-      ]
-    }
   ]
 }
