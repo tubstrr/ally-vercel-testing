@@ -9,6 +9,6 @@ import (
 
 func AllyAdminFormsAuth(w http.ResponseWriter, r *http.Request) {
 	// Check the database
-	database.Check_database()
+	database.CheckDatabase()
   network.Authorization(w, r)
 }

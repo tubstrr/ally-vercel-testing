@@ -9,6 +9,6 @@ import (
 
 func AllyAdminFormsCreateAccount(w http.ResponseWriter, r *http.Request) {
 	// Check the database
-	database.Check_database()
+	database.CheckDatabase()
   network.CreateAccount(w, r)
 }
