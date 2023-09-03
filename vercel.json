@@ -2,23 +2,69 @@
   "rewrites": [
     {
       "source": "/ally-admin/login",
-      "destination": "api/ally-admin/login"
+      "destination": "api/ally-admin/login",
+      "has": [
+        {
+          "type": "cookie",
+          "key": "ally-admin-session"
+        }
+      ],
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/ally-admin/login",
+      "destination": "api/ally-admin/login",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "s-maxage=1, stale-while-revalidate=300"
+        }
+      ]
     },
     {
       "source": "/ally-admin/create-account",
-      "destination": "api/ally-admin/create-account"
+      "destination": "api/ally-admin/create-account",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     },
     {
       "source": "/ally-admin/forms/auth",
-      "destination": "api/ally-admin/forms/auth"
+      "destination": "api/ally-admin/forms/auth",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     },
     {
       "source": "/ally-admin/forms/create-account",
-      "destination": "api/ally-admin/forms/create-account"
+      "destination": "api/ally-admin/forms/create-account",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     },
     {
       "source": "/ally-admin/:path*",
-      "destination": "api/ally-admin"
+      "destination": "api/ally-admin",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     },
     {
       "source": "/(.*)",
