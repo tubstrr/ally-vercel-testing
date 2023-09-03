@@ -3,26 +3,10 @@
     {
       "source": "/ally-admin/login",
       "destination": "api/ally-admin/login",
-      "has": [
-        {
-          "type": "cookie",
-          "key": "ally-admin-session"
-        }
-      ],
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=0, must-revalidate"
-        }
-      ]
-    },
-    {
-      "source": "/ally-admin/login",
-      "destination": "api/ally-admin/login",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "s-maxage=1, stale-while-revalidate=300"
         }
       ]
     },
