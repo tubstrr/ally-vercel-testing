@@ -6,6 +6,6 @@ import (
 	ally "github.com/tubstrr/ally"
 )
 
-func AllyAdmin(w http.ResponseWriter, r *http.Request) {
+func AllyAdminCreateAccount(w http.ResponseWriter, r *http.Request) {
   ally.AdminCreateAccount(w, r)
 }

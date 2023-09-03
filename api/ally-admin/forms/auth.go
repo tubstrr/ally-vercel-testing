@@ -7,7 +7,7 @@ import (
 	network "github.com/tubstrr/ally/network"
 )
 
-func AllyAdmin(w http.ResponseWriter, r *http.Request) {
+func AllyAdminFormsAuth(w http.ResponseWriter, r *http.Request) {
 	// Check the database
 	database.Check_database()
   network.Authorization(w, r)
