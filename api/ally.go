@@ -22,6 +22,7 @@ func Ally(w http.ResponseWriter, r *http.Request) {
   w.WriteHeader(http.StatusOK)
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	w.Header().Set("Cache-Control", "public, s-maxage=86400")
+	w.WriteHeader(http.StatusOK)
 	fmt.Fprintf(w, string(file))
 
   // ally.Ally(w, r, theme)
