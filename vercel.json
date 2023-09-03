@@ -28,16 +28,10 @@
   "headers": [
     {
       "source": "/ally-admin/:path*",
-      "has": [
-        {
-          "type": "cookie",
-          "key": "ally-admin-session"
-        }
-      ],
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
+          "value": "no-cache, must-revalidate, private"
         }
       ]
     }
