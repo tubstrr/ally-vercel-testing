@@ -6,6 +6,6 @@ import (
 	network "github.com/tubstrr/ally/network"
 )
 
-func AllyAdminFormsCreateAccount(w http.ResponseWriter, r *http.Request) {
+func AllyAdminFormsLogout(w http.ResponseWriter, r *http.Request) {
   network.Logout(w, r)
 }
