@@ -13,6 +13,10 @@
       "destination": "api/ally-admin/forms/auth"
     },
     {
+      "source": "/ally-admin/forms/logout",
+      "destination": "api/ally-admin/forms/logout"
+    },
+    {
       "source": "/ally-admin/forms/create-account",
       "destination": "api/ally-admin/forms/create-account"
     },
