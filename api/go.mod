@@ -1,7 +1,7 @@
 module github.com/tubstrr/ally-vercel-testing/api
 
 require (
-	github.com/tubstrr/ally v0.0.11
+	github.com/tubstrr/ally v0.0.12
 	github.com/tubstrr/ally-vercel-testing v0.0.0-20230903193151-1eb00680a3d3
 )
 
