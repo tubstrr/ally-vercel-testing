@@ -12,5 +12,7 @@ github.com/tubstrr/ally v0.0.10 h1:DDGuCay+sUJqRwCXCPpVdPXD3KJd2ZGfcZfIHnmKFP0=
 github.com/tubstrr/ally v0.0.10/go.mod h1:kT3YtOHavQUpJf3gu2OyQOKN3vEZEqym6lKzA2RgT04=
 github.com/tubstrr/ally v0.0.12 h1:fjLHMhgsTBwQDj5zbhcktGNM8HtPMTkQ7kFIq7oDKs8=
 github.com/tubstrr/ally v0.0.12/go.mod h1:kT3YtOHavQUpJf3gu2OyQOKN3vEZEqym6lKzA2RgT04=
+github.com/tubstrr/ally v0.0.13 h1:o3ixljSeYlpswcvASFH+IB6CWaHg9zjaCVpQu7roD7Y=
+github.com/tubstrr/ally v0.0.13/go.mod h1:kT3YtOHavQUpJf3gu2OyQOKN3vEZEqym6lKzA2RgT04=
 golang.org/x/crypto v0.12.0 h1:tFM/ta59kqch6LlvYnPa0yx5a83cL2nHflFhYKvv9Yk=
 golang.org/x/crypto v0.12.0/go.mod h1:NF0Gs7EO5K4qLn+Ylc+fih8BSTeIjAP05siRnAh98yw=

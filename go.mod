@@ -8,6 +8,6 @@ require (
 	github.com/google/uuid v1.3.1 // indirect
 	github.com/lib/pq v1.10.9 // indirect
 	github.com/redis/go-redis/v9 v9.1.0 // indirect
-	github.com/tubstrr/ally v0.0.12 // indirect
+	github.com/tubstrr/ally v0.0.13 // indirect
 	golang.org/x/crypto v0.12.0 // indirect
 )
